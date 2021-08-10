@@ -9,8 +9,8 @@ export class Funcionario{
   }
 
   //getters e setter
-  get senha(){
-    return this._senha;
+  autenticar(senha){
+    return senha == this._senha;
   }
 
   //métodos!!!
